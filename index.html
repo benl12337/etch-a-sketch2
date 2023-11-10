@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,20 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
-    <button class="setSize">Size</button>
-    <div id="container"></div>
+    <div class="colours">
+        <div class="selection"><p>Colour:</p><input type="color" class="input"></div>
+        <div class="selection"><p>Randomise:</p><button class="randomise">OFF</button></div>
+    </div>
+    <div class="buttons-and-canvas">
+        <h1>ETCH-A-SKETCH</h1>
+        <div class="buttons">
+            <button class="setSize">Size</button>
+            <button class="clearCanvas">Clear</button>
+        </div>
+        <div class="container" draggable="false"></div>
+    </div>
 </body>
+
 </html>
